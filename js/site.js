@@ -6,12 +6,10 @@ jQuery(function($) {
 
 // functions
 function checksubmit(){
-    alert('Submission Received: Congratulations, you are now signed up for our newsletter!');
+    alert('Thank you for signing up!');
     
     // disable submit button;
     var submitbutton = document.getElementById("submit");
-    submitbutton.style.opacity = 0.2;
-    submitbutton.style.backgroundColor = lightgrey;
 };
 
 document.getElementById("Test1").addEventListener('submit', checksubmit);
